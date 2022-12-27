@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="signup.css">
+    <script src="../script.js"></script>
+    <link rel="icon" href="bg.jpg">
+    <title>UPB:SignUp</title>
+</head>
+<body>
+    <div class="filter"></div>
+        <nav>
+            <h1>Ultimate Phone Book by CoderZDevs</h1>
+            
+        </nav>
+        <div class="container" id="contain">
+         <form method="post" id="frmSubmit">
+            <h2>SignUp</h2>
+            <p>Username</p>
+            <input class="form-inp" type="text" id="username" name="username" required>
+            <p htmlfor="password">Create Password</p>
+            <input class="form-inp" type="password" name="password" id="password" required>
+            <br>
+            <input style="display: none;" class="form-inp" type="text" name="color" id="color" required>
+            <button class="signups" id="btnSubmit" type="submit">Sign Up</button><br>
+            </form>
+            <div class="su">
+                <p>Already have an acccount ??</p><button onclick="liload()" class="signin">Sign In</button>
+            </div> 
+        </div>
+       
+        
+        <footer>
+          
+            <div style="align-items: center;display:flex">
+              <img class="logo" src="logo.png" alt="LOGO">
+                Copyright@CoderZDevs Solutions
+            </div>
+            <div style="position:absolute; right:0; padding-right:20px;">
+                Email:coderzdevs@gmail.com
+            </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        
+    <script src="signup.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
