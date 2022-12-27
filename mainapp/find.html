@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="icon" href="bg.jpg">
+  <script src="app.js"></script>
+  <title>Find Contact</title>
+</head>
+<body>
+  <div class="filter"></div>
+<nav>
+    <h1>Ultimate Phone Book by CoderZDevs</h1>
+    <ul class="menu">
+      <li class="link active" id="find" onclick="loadfind()">Find</li>
+      <li class="link" id="add" onclick="loadadd()">Add</li>
+      
+    </ul>
+    <div class="user">
+        <div class="name" id="un">
+        </div>
+        <div class="circle" id="cir">
+        <p id="ulg"></p>
+        </div>
+        <div>
+          <button class="lg" onclick="logout()">Logout</button>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container" id="cont">
+  
+    <h2>Find Contact</h2>
+    <p>Name</p>
+    <input class="form-inp" type="text" id="name" name="Name">
+    <br>
+    <button type="button" class="findcontact" onclick="find()">Find</button>
+    <div class="su">
+        <p id="msg"></p>
+    </div>
+    
+    
+</div>
+
+<footer>
+  
+    <div style="align-items: center;display:flex">
+      <img class="logo" src="logo.png" alt="LOGO">
+        Copyright@CoderZDevs Solutions
+    </div>
+    <div style="position:absolute; right:0; padding-right:20px;">
+        Email:coderzdevs@gmail.com
+    </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
