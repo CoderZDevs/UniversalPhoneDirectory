@@ -1,0 +1,29 @@
+
+
+
+
+
+/*----------------------sign in container---------*/
+
+.signin{
+    width:50%;
+    background-color: azure;
+    padding:10x;
+    align-items: center;
+    cursor: pointer;
+    border:none;
+    height:30px;
+    width:80px;
+    margin:0 auto;
+}
+
+
+.signup{
+    background-color: transparent;
+    padding:10px;
+    text-decoration: underline;
+    color:white;
+    border:none;
+    cursor: pointer;
+    font-size:15px;
+}
